@@ -1,3 +1,10 @@
+mod store;
+
+use store::db::Cache;
+
 fn main() {
-    println!("Hello, world!");
+
+    let x = Cache::new();
+    println!("{:?}",x);
+
 }
